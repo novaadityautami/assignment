@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>xyz bank - login</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2f4698d8-6f7a-4d43-9d52-3d921505a6cd</testCaseGuid>

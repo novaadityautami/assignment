@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
+
+WebUI.click(findTestObject('Object Repository/login - xyz/Page_XYZ Bank/button_Customer Login'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/login - xyz/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'), 
+    '2', true)
+
+WebUI.click(findTestObject('Object Repository/login - xyz/Page_XYZ Bank/button_Login'))
+
+WebUI.rightClick(findTestObject('Object Repository/login - xyz/Page_XYZ Bank/div_Welcome Harry Potter Please open an acc_cd43ee'))
+
+WebUI.closeBrowser()
+
