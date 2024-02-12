@@ -45,4 +45,11 @@
          <variableId>981d12d4-d60d-46ca-bc46-054e21ef2336</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1afd5285-9799-4ceb-9379-df2749234ad5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Final Assignment - Registrasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

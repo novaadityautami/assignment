@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Hapus pesanan/Page_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/username kosong/Page_Advantage Shopping/label_Password",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Username field is required\u0027])[1]/following::label[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Username\u0027])[1]/following::label[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/username kosong/Page_Advantage Shopping/label_Password_neighbor.png"
     }
   ]
 }

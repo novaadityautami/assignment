@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Final Assignment - Add and Search barang" time="84.909" tests="2" failures="0" errors="0">
+   <testsuite name="TS - Final Assignment - Add and Search barang" tests="2" failures="0" errors="0" time="84.909" skipped="0" timestamp="12-02-2024T11:08:17" hostname="admin - localhost" id="Test Suites/TS - Final Assignment - Add and Search barang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_110809/TS - Final Assignment - Add and Search barang/20240212_110810"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_110809/TS - Final Assignment - Add and Search barang/20240212_110810/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="5ec80003d8f09abac6e175ffe2e243ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Melakukan pencarian" time="45.098" classname="Test Cases/Final Assignment - Melakukan pencarian" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:08:17 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Melakukan pencarian: Test Cases/Final Assignment - Melakukan pencarian
+
+12-02-2024T11:08:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:08:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:08:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:08:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:08:19 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:08:22 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:08:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T11:08:23 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T11:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch")): Object: 'Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T11:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T11:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete"), "HP"): Text 'HP' is set on object 'Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+12-02-2024T11:08:28 - [MESSAGE][PASSED] - Text 'HP' is set on object 'Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+12-02-2024T11:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT")): Object: 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT' is clicked on
+
+12-02-2024T11:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT' is clicked on
+
+12-02-2024T11:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T11:09:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final assognment - Add to chart" time="39.736" classname="Test Cases/Final assognment - Add to chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:09:02 - [TEST_CASE][PASSED] - Test Cases/Final assognment - Add to chart: Test Cases/Final assognment - Add to chart
+
+12-02-2024T11:09:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:09:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:09:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:09:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:09:03 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:09:06 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:09:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T11:09:07 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T11:09:07 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+12-02-2024T11:09:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-02-2024T11:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img' is clicked on
+
+12-02-2024T11:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img' is clicked on
+
+12-02-2024T11:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/label_View Details")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T11:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T11:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny' is clicked on
+
+12-02-2024T11:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny' is clicked on
+
+12-02-2024T11:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:09:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+12-02-2024T11:09:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-02-2024T11:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart' is clicked on
+
+12-02-2024T11:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart' is clicked on
+
+12-02-2024T11:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter' is clicked on
+
+12-02-2024T11:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T11:08:17 - [TEST_SUITE][PASSED] - TS - Final Assignment - Add and Search barang: Test Cases/Final assognment - Add to chart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Final Assignment - Negatif Test" time="64.948" tests="3" failures="0" errors="0">
+   <testsuite name="TS - Final Assignment - Negatif Test" tests="3" failures="0" errors="0" time="64.948" skipped="0" timestamp="12-02-2024T11:10:12" hostname="admin - localhost" id="Test Suites/TS - Final Assignment - Negatif Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_110809/TS - Final Assignment - Negatif Test/20240212_110814"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_110809/TS - Final Assignment - Negatif Test/20240212_110814/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="970f34f113eea3a1f2c8d976d05a37d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Negative Test - Registrasi salah" time="11.204" classname="Test Cases/Final Assignment - Negative Test - Registrasi salah" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:10:12 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negative Test - Registrasi salah: Test Cases/Final Assignment - Negative Test - Registrasi salah
+
+12-02-2024T11:10:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:10:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:10:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:10:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:10:13 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:10:16 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username"), "testinglagi"): Text 'testinglagi' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:10:21 - [MESSAGE][PASSED] - Text 'testinglagi' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:10:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password"), "ZLXfnKkYy3s3+4kUSISoMA=="): Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:10:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Negative TC - Username kosong" time="40.697" classname="Test Cases/Final Assignment - Negative TC - Username kosong" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:10:23 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negative TC - Username kosong: Test Cases/Final Assignment - Negative TC - Username kosong
+
+12-02-2024T11:10:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:10:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:10:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:10:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:10:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:10:24 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:10:26 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)")): Object: 'Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)' is clicked on
+
+12-02-2024T11:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)' is clicked on
+
+12-02-2024T11:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/username kosong/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:11:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Username field is required'])[1]/following::label[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T11:11:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/username kosong/Page_Advantage Shopping/label_Password'. Try using Self-healing.
+
+12-02-2024T11:11:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Username field is required'])[1]/following::label[1]'.
+
+12-02-2024T11:11:02 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::label[2]'.
+
+12-02-2024T11:11:03 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/admin/git/assignment/Reports/Self-healing/Object Repository/username kosong/Page_Advantage Shopping/label_Password_neighbor.png
+
+12-02-2024T11:11:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/username kosong/Page_Advantage Shopping/label_Password' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::label[2]'.
+
+12-02-2024T11:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/username kosong/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:11:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password"), "ukMkQ5mr6XVa1UrB1wTCDQ=="): Text ****** has been set on object 'Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password'
+
+12-02-2024T11:11:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Negatif TC - Login double web" time="12.98" classname="Test Cases/Final Assignment - Negatif TC - Login double web" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:11:04 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negatif TC - Login double web: Test Cases/Final Assignment - Negatif TC - Login double web
+
+12-02-2024T11:11:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:11:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:11:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:11:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:11:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:11:05 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:11:07 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:11:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T11:11:08 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T11:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username"), "testing"): Text 'testing' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:11:12 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T11:11:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:11:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:11:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T11:11:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T11:10:12 - [TEST_SUITE][PASSED] - TS - Final Assignment - Negatif Test: Test Cases/Final Assignment - Negatif TC - Login double web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
