@@ -13,4 +13,4 @@ Negatif
 2. Username tidak diinput
 3. Login double device
 
-Untuk penjelasan pada skenario dapat dilihat pada link berikut : https://drive.google.com/drive/folders/15l5iXgLuvS1RKv6T9v9wHR0LlWz67SF0?usp=sharing
+Untuk penjelasan pada skenario dapat dilihat pada link berikut : https://drive.google.com/drive/folders/15l5iXgLuvS1RKv6T9v9wHR0LlWz67SF0?usp=sharing 
