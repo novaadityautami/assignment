@@ -12,3 +12,5 @@ Negatif
 1. Regiter salah
 2. Username tidak diinput
 3. Login double device
+
+Untuk penjelasan pada skenario dapat dilihat pada link berikut :
