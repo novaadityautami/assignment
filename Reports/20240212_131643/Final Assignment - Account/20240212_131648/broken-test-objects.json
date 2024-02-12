@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath",
+      "brokenLocator": "//path[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20240212_131643/Final Assignment - Account/20240212_131648/Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath_BASIC.png"
+    }
+  ]
+}

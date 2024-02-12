@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Final Assignment Web - Negatif" time="113.249" tests="3" failures="0" errors="0">
+   <testsuite name="TS - Final Assignment - Negatif Test" tests="3" failures="0" errors="0" time="111.299" skipped="0" timestamp="12-02-2024T12:14:51" hostname="admin - 172.16.213.220" id="Test Suites/TS - Final Assignment - Negatif Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_121447/TS - Final Assignment - Negatif Test/20240212_121448"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_121447/TS - Final Assignment - Negatif Test/20240212_121448/execution0.log"/>
+         <property name="attachments" value="/Users/admin/git/assignment/Reports/20240212_121447/TS - Final Assignment - Negatif Test/20240212_121448/1707714933303.png, /Users/admin/git/assignment/Reports/20240212_121447/TS - Final Assignment - Negatif Test/20240212_121448/1707714980328.png, /Users/admin/git/assignment/Reports/20240212_121447/TS - Final Assignment - Negatif Test/20240212_121448/1707714989196.png"/>
+         <property name="hostName" value="admin - 172.16.213.220"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.220"/>
+         <property name="sessionId" value="600b470aa729311f1546e9f286afa12f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Negative Test - Registrasi salah" time="12.381" classname="Test Cases/Final Assignment - Negative Test - Registrasi salah" status="PASSED">
+         <system-out><![CDATA[12-02-2024T12:14:51 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negative Test - Registrasi salah: Test Cases/Final Assignment - Negative Test - Registrasi salah
+
+12-02-2024T12:14:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T12:14:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T12:14:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T12:14:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T12:14:53 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:14:56 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T12:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T12:15:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username"), "testinglagi"): Text 'testinglagi' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T12:15:01 - [MESSAGE][PASSED] - Text 'testinglagi' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T12:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:15:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password"), "ZLXfnKkYy3s3+4kUSISoMA=="): Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T12:15:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T12:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T12:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Negative TC - Username kosong" time="16.182" classname="Test Cases/Final Assignment - Negative TC - Username kosong" status="PASSED">
+         <system-out><![CDATA[12-02-2024T12:15:55 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negative TC - Username kosong: Test Cases/Final Assignment - Negative TC - Username kosong
+
+12-02-2024T12:15:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T12:15:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T12:15:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T12:15:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T12:15:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T12:15:56 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:16:00 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)")): Object: 'Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)' is clicked on
+
+12-02-2024T12:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)' is clicked on
+
+12-02-2024T12:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/username kosong/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/username kosong/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:16:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password"), "ukMkQ5mr6XVa1UrB1wTCDQ=="): Text ****** has been set on object 'Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password'
+
+12-02-2024T12:16:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Negatif TC - Login double web" time="12.909" classname="Test Cases/Final Assignment - Negatif TC - Login double web" status="PASSED">
+         <system-out><![CDATA[12-02-2024T12:16:29 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Negatif TC - Login double web: Test Cases/Final Assignment - Negatif TC - Login double web
+
+12-02-2024T12:16:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T12:16:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T12:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T12:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T12:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T12:16:30 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:16:33 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T12:16:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T12:16:33 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T12:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T12:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T12:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username"), "testing"): Text 'testing' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T12:16:38 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T12:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T12:16:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T12:16:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T12:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T12:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T12:16:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T12:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T12:14:51 - [TEST_SUITE][FAILED] - TS - Final Assignment - Negatif Test: Test Cases/Final Assignment - Negative TC - Username kosong FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/username kosong/Page_Advantage Shopping/label_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Final Assignment - Negative TC - Username kosong.run(Final Assignment - Negative TC - Username kosong:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707714889000.run(TempTestSuite1707714889000.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0df7ce20844539e0613d281ddfabf249
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-02-2024T12:14:51 - [TEST_SUITE][FAILED] - TS - Final Assignment - Negatif Test: Test Cases/Final Assignment - Negative TC - Username kosong FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/username kosong/Page_Advantage Shopping/label_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Final Assignment - Negative TC - Username kosong.run(Final Assignment - Negative TC - Username kosong:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707714889000.run(TempTestSuite1707714889000.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0df7ce20844539e0613d281ddfabf249
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

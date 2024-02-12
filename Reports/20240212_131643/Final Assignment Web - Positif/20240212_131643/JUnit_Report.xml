@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Final Assignment Web - Positif" time="389.117" tests="8" failures="0" errors="0">
+   <testsuite name="TS - Final Assignment - Add and Search barang" tests="2" failures="0" errors="0" time="77.632" skipped="0" timestamp="12-02-2024T13:16:54" hostname="admin - 172.16.213.220" id="Test Suites/TS - Final Assignment - Add and Search barang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_131643/TS - Final Assignment - Add and Search barang/20240212_131644"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_131643/TS - Final Assignment - Add and Search barang/20240212_131644/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 172.16.213.220"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.220"/>
+         <property name="sessionId" value="0ca6d2651b73f78bde5f16a9298449ac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Melakukan pencarian" time="17.45" classname="Test Cases/Final Assignment - Melakukan pencarian" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:17:13 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Melakukan pencarian: Test Cases/Final Assignment - Melakukan pencarian
+
+12-02-2024T13:17:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:17:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:17:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:17:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:17:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:17:14 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:17:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:17:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T13:17:17 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T13:17:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch")): Object: 'Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T13:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch' is clicked on
+
+12-02-2024T13:17:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete"), "HP"): Text 'HP' is set on object 'Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+12-02-2024T13:17:22 - [MESSAGE][PASSED] - Text 'HP' is set on object 'Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+12-02-2024T13:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT")): Object: 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT' is clicked on
+
+12-02-2024T13:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT' is clicked on
+
+12-02-2024T13:17:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-02-2024T13:17:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final assognment - Add to chart" time="21.148" classname="Test Cases/Final assognment - Add to chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:17:50 - [TEST_CASE][PASSED] - Test Cases/Final assognment - Add to chart: Test Cases/Final assognment - Add to chart
+
+12-02-2024T13:17:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:17:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:17:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:17:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:17:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:17:51 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:17:54 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:17:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T13:17:55 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T13:17:55 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+12-02-2024T13:17:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-02-2024T13:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img' is clicked on
+
+12-02-2024T13:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img' is clicked on
+
+12-02-2024T13:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/label_View Details")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T13:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T13:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T13:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T13:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny' is clicked on
+
+12-02-2024T13:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny' is clicked on
+
+12-02-2024T13:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T13:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T13:18:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+12-02-2024T13:18:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+12-02-2024T13:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart' is clicked on
+
+12-02-2024T13:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart' is clicked on
+
+12-02-2024T13:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter")): Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter' is clicked on
+
+12-02-2024T13:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T13:16:54 - [TEST_SUITE][FAILED] - TS - Final Assignment - Add and Search barang: Test Cases/Final Assignment - Melakukan pencarian FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Final Assignment - Melakukan pencarian.run(Final Assignment - Melakukan pencarian:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707718604719.run(TempTestSuite1707718604719.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0631fb01502a3ba41e5efd6234e8e9b
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='HP H2310 IN-EAR HEADSET'])[1]/following::section[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-02-2024T13:16:54 - [TEST_SUITE][FAILED] - TS - Final Assignment - Add and Search barang: Test Cases/Final Assignment - Melakukan pencarian FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Final Assignment - Melakukan pencarian.run(Final Assignment - Melakukan pencarian:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707718604719.run(TempTestSuite1707718604719.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0631fb01502a3ba41e5efd6234e8e9b
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='HP H2310 IN-EAR HEADSET'])[1]/following::section[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+   <testsuite name="Final Assignment - E2E Pembelian barang" tests="1" failures="0" errors="0" time="26.805" skipped="0" timestamp="12-02-2024T13:18:22" hostname="admin - 172.16.213.220" id="Test Suites/Final Assignment - E2E Pembelian barang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_131643/Final Assignment - E2E Pembelian barang/20240212_131646"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_131643/Final Assignment - E2E Pembelian barang/20240212_131646/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - 172.16.213.220"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.220"/>
+         <property name="sessionId" value="dd707bcdfd744ef189ef987e03401cdb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Pembelian barang" time="26.728" classname="Test Cases/Final Assignment - Pembelian barang" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:18:22 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Pembelian barang: Test Cases/Final Assignment - Pembelian barang
+
+12-02-2024T13:18:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:18:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:18:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:18:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:18:23 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:18:25 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:18:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T13:18:26 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T13:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T13:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T13:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T13:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T13:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T13:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T13:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)' is clicked on
+
+12-02-2024T13:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)' is clicked on
+
+12-02-2024T13:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)' is clicked on
+
+12-02-2024T13:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)' is clicked on
+
+12-02-2024T13:18:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T13:18:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-02-2024T13:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)"), "testinglagi"): Text 'testinglagi' is set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)'
+
+12-02-2024T13:18:41 - [MESSAGE][PASSED] - Text 'testinglagi' is set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)'
+
+12-02-2024T13:18:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)'
+
+12-02-2024T13:18:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)'
+
+12-02-2024T13:18:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T13:18:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-02-2024T13:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)' is clicked on
+
+12-02-2024T13:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)' is clicked on
+
+12-02-2024T13:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)' is clicked on
+
+12-02-2024T13:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)' is clicked on
+
+12-02-2024T13:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)' is clicked on
+
+12-02-2024T13:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T13:18:22 - [TEST_SUITE][PASSED] - Final Assignment - E2E Pembelian barang: Test Cases/Final Assignment - Pembelian barang]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Final Assignment - Account" tests="5" failures="0" errors="0" time="257.519" skipped="0" timestamp="12-02-2024T13:18:59" hostname="admin - 172.16.213.220" id="Test Suites/Final Assignment - Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_131643/Final Assignment - Account/20240212_131648"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_131643/Final Assignment - Account/20240212_131648/execution0.log"/>
+         <property name="attachments" value="/Users/admin/git/assignment/Reports/20240212_131643/Final Assignment - Account/20240212_131648/1707718748605.png"/>
+         <property name="hostName" value="admin - 172.16.213.220"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.220"/>
+         <property name="sessionId" value="5144e4778df2cebece98559fbf82ab89"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Login" time="14.43" classname="Test Cases/Final Assignment - Login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:19:08 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Login: Test Cases/Final Assignment - Login
+
+12-02-2024T13:19:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:19:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:19:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:19:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:19:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:19:09 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:12 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_OR_username"), UserName): Text 'namuu' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:17 - [MESSAGE][PASSED] - Text 'namuu' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Username_password"), Password): Text 'Halo1' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:19 - [MESSAGE][PASSED] - Text 'Halo1' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:19 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/input_Email_remember_me")): Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/span_namuu")): Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on
+
+12-02-2024T13:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Login" time="14.628" classname="Test Cases/Final Assignment - Login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:19:23 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Login: Test Cases/Final Assignment - Login
+
+12-02-2024T13:19:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:19:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:19:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:19:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:19:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:19:24 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:26 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_OR_username"), UserName): Text 'namasata' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:31 - [MESSAGE][PASSED] - Text 'namasata' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Username_password"), Password): Text 'Hey123' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:34 - [MESSAGE][PASSED] - Text 'Hey123' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:34 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+12-02-2024T13:19:34 - [TEST_STEP][PASSED] - else: null
+
+12-02-2024T13:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/span_namuu")): Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on
+
+12-02-2024T13:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Login" time="15.457" classname="Test Cases/Final Assignment - Login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:19:37 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Login: Test Cases/Final Assignment - Login
+
+12-02-2024T13:19:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:19:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:19:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:19:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:19:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:19:38 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:41 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_OR_username"), UserName): Text 'cieci' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:46 - [MESSAGE][PASSED] - Text 'cieci' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Username_password"), Password): Text 'Cui123' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:48 - [MESSAGE][PASSED] - Text 'Cui123' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:19:48 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/input_Email_remember_me")): Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/input_Email_remember_me' is clicked on
+
+12-02-2024T13:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/span_namuu")): Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on
+
+12-02-2024T13:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Login" time="13.853" classname="Test Cases/Final Assignment - Login" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:19:53 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Login: Test Cases/Final Assignment - Login
+
+12-02-2024T13:19:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:19:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:19:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:19:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:19:54 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:57 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:20:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_OR_username"), UserName): Text 'testinglagi' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:20:02 - [MESSAGE][PASSED] - Text 'testinglagi' is set on object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T13:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/label_Password")): Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/label_Password' is clicked on
+
+12-02-2024T13:20:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Advantage Shopping/input_Username_password"), Password): Text 'P@ssw0rd' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:20:04 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T13:20:04 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): null
+
+12-02-2024T13:20:04 - [TEST_STEP][PASSED] - else: null
+
+12-02-2024T13:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T13:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/span_namuu")): Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on
+
+12-02-2024T13:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/span_namuu' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final Assignment - Registrasi" time="58.38" classname="Test Cases/Final Assignment - Registrasi" status="PASSED">
+         <system-out><![CDATA[12-02-2024T13:22:18 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Registrasi: Test Cases/Final Assignment - Registrasi
+
+12-02-2024T13:22:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T13:22:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T13:22:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T13:22:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T13:22:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T13:22:20 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:22:22 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T13:22:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T13:22:23 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T13:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T13:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+12-02-2024T13:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+12-02-2024T13:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input__usernameRegisterPage"), "testinglagi7"): Text 'testinglagi7' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__usernameRegisterPage'
+
+12-02-2024T13:22:29 - [MESSAGE][PASSED] - Text 'testinglagi7' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__usernameRegisterPage'
+
+12-02-2024T13:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/label_Email")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Email' is clicked on
+
+12-02-2024T13:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Email' is clicked on
+
+12-02-2024T13:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input__emailRegisterPage"), "testing@gmail.com"): Text 'testing@gmail.com' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__emailRegisterPage'
+
+12-02-2024T13:22:31 - [MESSAGE][PASSED] - Text 'testing@gmail.com' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__emailRegisterPage'
+
+12-02-2024T13:22:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input__passwordRegisterPage"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__passwordRegisterPage'
+
+12-02-2024T13:22:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__passwordRegisterPage'
+
+12-02-2024T13:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/label_Confirm password")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Confirm password' is clicked on
+
+12-02-2024T13:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Confirm password' is clicked on
+
+12-02-2024T13:22:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+12-02-2024T13:22:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+12-02-2024T13:22:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), "Testing"): Text 'Testing' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+12-02-2024T13:22:34 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+12-02-2024T13:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/label_Last Name")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Last Name' is clicked on
+
+12-02-2024T13:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_Last Name' is clicked on
+
+12-02-2024T13:22:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), "Assignment"): Text 'Assignment' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+12-02-2024T13:22:36 - [MESSAGE][PASSED] - Text 'Assignment' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+12-02-2024T13:22:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), "0812345678"): Text '0812345678' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+12-02-2024T13:22:37 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+12-02-2024T13:22:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:250", true): All options with value 'object:250' are selected in object 'Object Repository/Registrasi/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+12-02-2024T13:22:40 - [MESSAGE][PASSED] - All options with value 'object:250' are selected in object 'Object Repository/Registrasi/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+12-02-2024T13:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_Country_cityRegisterPage"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+12-02-2024T13:22:40 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+12-02-2024T13:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3"), "Jalan testing"): Text 'Jalan testing' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+12-02-2024T13:22:42 - [MESSAGE][PASSED] - Text 'Jalan testing' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+12-02-2024T13:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/label_State  Province  Region")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_State  Province  Region' is clicked on
+
+12-02-2024T13:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/label_State  Province  Region' is clicked on
+
+12-02-2024T13:22:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+12-02-2024T13:22:43 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+12-02-2024T13:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f"), "1234"): Text '1234' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+12-02-2024T13:22:44 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Registrasi/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+12-02-2024T13:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+12-02-2024T13:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+12-02-2024T13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+12-02-2024T13:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+12-02-2024T13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath")): Object: 'Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath' is clicked on
+
+12-02-2024T13:23:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //path[@id = 'menuUserSVGPath']'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T13:23:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath'. Try using Self-healing.
+
+12-02-2024T13:23:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath' was broken. Propose an alternative one: '//*[@id = 'menuUserSVGPath']'.
+
+12-02-2024T13:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Page_Advantage Shopping/path_testinglagi_menuUserSVGPath' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T13:18:59 - [TEST_SUITE][FAILED] - Final Assignment - Account: Test Cases/Final Assignment - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'namuu' of object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Final Assignment - Login.run(Final Assignment - Login:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707718608237.run(TempTestSuite1707718608237.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e1c4114d50731ed80fd0608ca5e2d83
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-02-2024T13:18:59 - [TEST_SUITE][FAILED] - Final Assignment - Account: Test Cases/Final Assignment - Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'namuu' of object 'Object Repository/Page_Advantage Shopping/input_OR_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Final Assignment - Login.run(Final Assignment - Login:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707718608237.run(TempTestSuite1707718608237.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Admins-MacBook-Pro.local', ip: 'fe80:0:0:0:14ff:2403:b080:28c8%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: /var/folders/r1/7_mb_1713j7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e1c4114d50731ed80fd0608ca5e2d83
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
