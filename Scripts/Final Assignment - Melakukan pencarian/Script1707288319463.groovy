@@ -29,5 +29,3 @@ WebUI.setText(findTestObject('Object Repository/Page_Advantage Shopping/input_Si
 
 WebUI.click(findTestObject('Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT'))
 
-WebUI.closeBrowser()
-

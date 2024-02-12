@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Registrasi/Page_Advantage Shopping
 
 WebUI.click(findTestObject('Object Repository/Registrasi/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
 
-WebUI.setText(findTestObject('Object Repository/Registrasi/Page_Advantage Shopping/input__usernameRegisterPage'), 'testinglagi7')
+WebUI.setText(findTestObject('Object Repository/Registrasi/Page_Advantage Shopping/input__usernameRegisterPage'), 'testinglagi8')
 
 WebUI.click(findTestObject('Object Repository/Registrasi/Page_Advantage Shopping/label_Email'))
 
