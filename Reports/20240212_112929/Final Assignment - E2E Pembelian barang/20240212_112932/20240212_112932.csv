@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Final Assignment - E2E Pembelian barang,Chrome 117.0.0.0,,,12-02-2024 11:30:58,12-02-2024 11:31:25,27.637s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Pembelian barang,Chrome 117.0.0.0,,,12-02-2024 11:30:58,12-02-2024 11:31:25,27.568s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 11:30:58,12-02-2024 11:30:59,1.129s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 11:30:59,12-02-2024 11:31:02,2.696s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,12-02-2024 11:31:02,12-02-2024 11:31:02,0.483s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS""))",Chrome 117.0.0.0,,,12-02-2024 11:31:02,12-02-2024 11:31:11,8.510s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS""))",Chrome 117.0.0.0,,,12-02-2024 11:31:11,12-02-2024 11:31:11,0.270s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details""))",Chrome 117.0.0.0,,,12-02-2024 11:31:11,12-02-2024 11:31:11,0.403s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)""))",Chrome 117.0.0.0,,,12-02-2024 11:31:11,12-02-2024 11:31:14,2.323s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)""))",Chrome 117.0.0.0,,,12-02-2024 11:31:14,12-02-2024 11:31:14,0.684s,PASSED
+delay(2),Chrome 117.0.0.0,,,12-02-2024 11:31:14,12-02-2024 11:31:16,2.020s,PASSED
+"setText(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)""), ""testinglagi"")",Chrome 117.0.0.0,,,12-02-2024 11:31:16,12-02-2024 11:31:17,0.730s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 117.0.0.0,,,12-02-2024 11:31:17,12-02-2024 11:31:18,1.186s,PASSED
+delay(2),Chrome 117.0.0.0,,,12-02-2024 11:31:18,12-02-2024 11:31:20,2.011s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)""))",Chrome 117.0.0.0,,,12-02-2024 11:31:20,12-02-2024 11:31:21,0.307s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)""))",Chrome 117.0.0.0,,,12-02-2024 11:31:21,12-02-2024 11:31:25,4.218s,PASSED
+"click(findTestObject(""Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)""))",Chrome 117.0.0.0,,,12-02-2024 11:31:25,12-02-2024 11:31:25,0.492s,PASSED

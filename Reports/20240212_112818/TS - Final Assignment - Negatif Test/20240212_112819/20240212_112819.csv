@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Final Assignment - Negatif Test,Chrome 117.0.0.0,,,12-02-2024 11:28:22,12-02-2024 11:28:59,36.967s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Negative Test - Registrasi salah,Chrome 117.0.0.0,,,12-02-2024 11:28:22,12-02-2024 11:28:34,12.043s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 11:28:22,12-02-2024 11:28:24,1.767s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 11:28:24,12-02-2024 11:28:27,2.726s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 11:28:27,12-02-2024 11:28:31,4.294s,PASSED
+"setText(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username""), ""testinglagi"")",Chrome 117.0.0.0,,,12-02-2024 11:28:31,12-02-2024 11:28:32,0.918s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 11:28:32,12-02-2024 11:28:33,1.114s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password""), ""ZLXfnKkYy3s3+4kUSISoMA=="")",Chrome 117.0.0.0,,,12-02-2024 11:28:33,12-02-2024 11:28:33,0.521s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 11:28:33,12-02-2024 11:28:34,0.605s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Negative TC - Username kosong,Chrome 117.0.0.0,,,12-02-2024 11:28:34,12-02-2024 11:28:46,11.786s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 11:28:34,12-02-2024 11:28:35,0.804s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 11:28:35,12-02-2024 11:28:38,3.091s,PASSED
+"click(findTestObject(""Object Repository/username kosong/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser (1)""))",Chrome 117.0.0.0,,,12-02-2024 11:28:38,12-02-2024 11:28:42,4.232s,PASSED
+"click(findTestObject(""Object Repository/username kosong/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 11:28:42,12-02-2024 11:28:45,2.967s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/username kosong/Page_Advantage Shopping/input_Username field is required_password""), ""ukMkQ5mr6XVa1UrB1wTCDQ=="")",Chrome 117.0.0.0,,,12-02-2024 11:28:45,12-02-2024 11:28:46,0.665s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Negatif TC - Login double web,Chrome 117.0.0.0,,,12-02-2024 11:28:46,12-02-2024 11:28:59,13.065s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 11:28:46,12-02-2024 11:28:47,0.756s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 11:28:47,12-02-2024 11:28:49,2.756s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,12-02-2024 11:28:49,12-02-2024 11:28:50,0.480s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 11:28:50,12-02-2024 11:28:54,3.850s,PASSED
+"setText(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/input_OR_username""), ""testing"")",Chrome 117.0.0.0,,,12-02-2024 11:28:54,12-02-2024 11:28:55,0.922s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 11:28:55,12-02-2024 11:28:56,1.131s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/input_Username_password""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 117.0.0.0,,,12-02-2024 11:28:56,12-02-2024 11:28:56,0.508s,PASSED
+"click(findTestObject(""Object Repository/Incorect pasword/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 11:28:56,12-02-2024 11:28:57,0.606s,PASSED
+delay(2),Chrome 117.0.0.0,,,12-02-2024 11:28:57,12-02-2024 11:28:59,2.020s,PASSED

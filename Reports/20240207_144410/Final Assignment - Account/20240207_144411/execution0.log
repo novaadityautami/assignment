@@ -4766,3 +4766,42 @@ Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<record>
+  <date>2024-02-12T04:29:33.479762Z</date>
+  <millis>1707712173479</millis>
+  <nanos>762000</nanos>
+  <sequence>7634</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1902</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User Login&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-12T04:29:33.481948Z</date>
+  <millis>1707712173481</millis>
+  <nanos>948000</nanos>
+  <sequence>7635</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1902</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-12T04:29:33.482057Z</date>
+  <millis>1707712173482</millis>
+  <nanos>57000</nanos>
+  <sequence>7636</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1902</thread>
+  <message>Reading excel file with source file &amp;apos;/Users/admin/Downloads/user login.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
