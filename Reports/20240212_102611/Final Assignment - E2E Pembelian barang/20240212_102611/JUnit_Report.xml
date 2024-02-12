@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Final Assignment - E2E Pembelian barang" time="30.403" tests="1" failures="0" errors="0">
+   <testsuite name="Final Assignment - E2E Pembelian barang" tests="1" failures="0" errors="0" time="30.403" skipped="0" timestamp="12-02-2024T10:26:12" hostname="admin - localhost" id="Test Suites/Final Assignment - E2E Pembelian barang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/assignment/Reports/20240212_102611/Final Assignment - E2E Pembelian barang/20240212_102611"/>
+         <property name="logFiles" value="/Users/admin/git/assignment/Reports/20240212_102611/Final Assignment - E2E Pembelian barang/20240212_102611/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="280093b6980271259d14e4391e12e667"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Final Assignment - Pembelian barang" time="30.336" classname="Test Cases/Final Assignment - Pembelian barang" status="PASSED">
+         <system-out><![CDATA[12-02-2024T10:26:12 - [TEST_CASE][PASSED] - Test Cases/Final Assignment - Pembelian barang: Test Cases/Final Assignment - Pembelian barang
+
+12-02-2024T10:26:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T10:26:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T10:26:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T10:26:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T10:26:14 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T10:26:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T10:26:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-02-2024T10:26:17 - [MESSAGE][PASSED] - Current window maximized
+
+12-02-2024T10:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T10:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T10:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T10:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/a_OUR PRODUCTS' is clicked on
+
+12-02-2024T10:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T10:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/label_View Details' is clicked on
+
+12-02-2024T10:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)' is clicked on
+
+12-02-2024T10:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_ADD TO CART (1)' is clicked on
+
+12-02-2024T10:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)' is clicked on
+
+12-02-2024T10:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_CHECKOUT  (1,261.99)' is clicked on
+
+12-02-2024T10:26:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T10:26:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-02-2024T10:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)"), "testinglagi"): Text 'testinglagi' is set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)'
+
+12-02-2024T10:26:33 - [MESSAGE][PASSED] - Text 'testinglagi' is set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Already have an account_usernameInOrd_818284 (1)'
+
+12-02-2024T10:26:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)"), "iFGeFYmXIrUhQZHvW7P22w=="): Text ****** has been set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)'
+
+12-02-2024T10:26:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/pembelian barang/Page_Advantage Shopping/input_Username_passwordInOrderPayment (1)'
+
+12-02-2024T10:26:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+12-02-2024T10:26:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+12-02-2024T10:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)' is clicked on
+
+12-02-2024T10:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_LOGIN (1)' is clicked on
+
+12-02-2024T10:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)' is clicked on
+
+12-02-2024T10:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_NEXT (1)' is clicked on
+
+12-02-2024T10:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)")): Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)' is clicked on
+
+12-02-2024T10:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/pembelian barang/Page_Advantage Shopping/button_PAY NOW (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T10:26:12 - [TEST_SUITE][PASSED] - Final Assignment - E2E Pembelian barang: Test Cases/Final Assignment - Pembelian barang]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Final Assignment - Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6020269d-f609-4e1d-a18f-56bb575ecd69</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>22741656-86b7-48ed-aa8d-961894c5fe45</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/User Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>22741656-86b7-48ed-aa8d-961894c5fe45</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>5134b158-8c89-45a9-a9c5-2b752cd4c287</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>22741656-86b7-48ed-aa8d-961894c5fe45</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>7da1d67e-ad6f-40be-a59c-8922b9ba52fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>22741656-86b7-48ed-aa8d-961894c5fe45</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>rememberMe</value>
+      <variableId>981d12d4-d60d-46ca-bc46-054e21ef2336</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5134b158-8c89-45a9-a9c5-2b752cd4c287</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7da1d67e-ad6f-40be-a59c-8922b9ba52fc</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>981d12d4-d60d-46ca-bc46-054e21ef2336</id>
+      <masked>false</masked>
+      <name>rememberMe</name>
+   </variable>
+</TestCaseEntity>

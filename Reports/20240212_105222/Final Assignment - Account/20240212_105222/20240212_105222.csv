@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Final Assignment - Account,Chrome 117.0.0.0,,,12-02-2024 10:52:23,12-02-2024 10:54:09,1m - 46.000s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Login,Chrome 117.0.0.0,,,12-02-2024 10:52:23,12-02-2024 10:52:56,32.457s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:52:24,12-02-2024 10:52:25,1.791s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:52:25,12-02-2024 10:52:32,6.715s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 10:52:32,12-02-2024 10:52:39,7.014s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_OR_username""), UserName)",Chrome 117.0.0.0,,,12-02-2024 10:52:39,12-02-2024 10:52:40,0.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 10:52:40,12-02-2024 10:52:41,1.139s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_Username_password""), Password)",Chrome 117.0.0.0,,,12-02-2024 10:52:41,12-02-2024 10:52:42,1.084s,PASSED
+"if (rememberMe == ""yes"")",Chrome 117.0.0.0,,,12-02-2024 10:52:42,12-02-2024 10:52:43,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 10:52:43,12-02-2024 10:52:43,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_namuu""))",Chrome 117.0.0.0,,,12-02-2024 10:52:43,12-02-2024 10:52:56,12.626s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Login,Chrome 117.0.0.0,,,12-02-2024 10:53:06,12-02-2024 10:53:28,21.970s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:53:06,12-02-2024 10:53:07,0.867s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:53:07,12-02-2024 10:53:09,2.376s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 10:53:09,12-02-2024 10:53:20,10.474s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_OR_username""), UserName)",Chrome 117.0.0.0,,,12-02-2024 10:53:20,12-02-2024 10:53:21,0.867s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 10:53:21,12-02-2024 10:53:22,1.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_Username_password""), Password)",Chrome 117.0.0.0,,,12-02-2024 10:53:22,12-02-2024 10:53:23,1.059s,PASSED
+"if (rememberMe == ""yes"")",Chrome 117.0.0.0,,,12-02-2024 10:53:23,12-02-2024 10:53:23,0.003s,PASSED
+else,Chrome 117.0.0.0,,,12-02-2024 10:53:23,12-02-2024 10:53:23,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 10:53:23,12-02-2024 10:53:23,0.516s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_namuu""))",Chrome 117.0.0.0,,,12-02-2024 10:53:23,12-02-2024 10:53:28,4.650s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Login,Chrome 117.0.0.0,,,12-02-2024 10:53:28,12-02-2024 10:53:47,18.652s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:53:28,12-02-2024 10:53:29,1.332s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:53:29,12-02-2024 10:53:33,3.316s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 10:53:33,12-02-2024 10:53:39,5.942s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_OR_username""), UserName)",Chrome 117.0.0.0,,,12-02-2024 10:53:39,12-02-2024 10:53:40,0.922s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 10:53:40,12-02-2024 10:53:41,1.124s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_Username_password""), Password)",Chrome 117.0.0.0,,,12-02-2024 10:53:41,12-02-2024 10:53:42,1.086s,PASSED
+"if (rememberMe == ""yes"")",Chrome 117.0.0.0,,,12-02-2024 10:53:42,12-02-2024 10:53:42,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 10:53:42,12-02-2024 10:53:43,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_namuu""))",Chrome 117.0.0.0,,,12-02-2024 10:53:43,12-02-2024 10:53:47,3.910s,PASSED
+,,,,,,,
+Test Cases/Final Assignment - Login,Chrome 117.0.0.0,,,12-02-2024 10:53:47,12-02-2024 10:54:09,22.513s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:53:47,12-02-2024 10:53:48,0.986s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:53:48,12-02-2024 10:53:52,3.853s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 117.0.0.0,,,12-02-2024 10:53:52,12-02-2024 10:53:56,4.600s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_OR_username""), UserName)",Chrome 117.0.0.0,,,12-02-2024 10:53:56,12-02-2024 10:53:57,0.834s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/label_Password""))",Chrome 117.0.0.0,,,12-02-2024 10:53:57,12-02-2024 10:53:58,1.119s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_Username_password""), Password)",Chrome 117.0.0.0,,,12-02-2024 10:53:58,12-02-2024 10:53:59,1.172s,PASSED
+"if (rememberMe == ""yes"")",Chrome 117.0.0.0,,,12-02-2024 10:53:59,12-02-2024 10:53:59,0.000s,PASSED
+else,Chrome 117.0.0.0,,,12-02-2024 10:53:59,12-02-2024 10:53:59,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_SIGN IN""))",Chrome 117.0.0.0,,,12-02-2024 10:53:59,12-02-2024 10:54:00,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_namuu""))",Chrome 117.0.0.0,,,12-02-2024 10:54:00,12-02-2024 10:54:09,9.429s,PASSED

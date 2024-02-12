@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Advantage Inc, 2024. Release 3.2_virtualFooter</name>
+   <tag></tag>
+   <elementGuidId>ee63a282-f637-4d90-b689-ca66321a2536</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='virtualFooter']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#virtualFooter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8b554da6-1de5-4f95-87da-32412979242a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>virtualFooter</value>
+      <webElementGuid>290577d8-5032-4c65-8205-0df1381ce253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;virtualFooter&quot;)</value>
+      <webElementGuid>4dcbe0ca-4647-445b-a5d5-fd039bdc4674</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='virtualFooter']</value>
+      <webElementGuid>5f1ff3b3-4453-4e3d-ba23-14f8eace00a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]</value>
+      <webElementGuid>ce05d4d4-2d7b-4ff5-996f-83f6329b1410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'virtualFooter']</value>
+      <webElementGuid>a23282af-e93d-4c32-b068-adf3cd23aba2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

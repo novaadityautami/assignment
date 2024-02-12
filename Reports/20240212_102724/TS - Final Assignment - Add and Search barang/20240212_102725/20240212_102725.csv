@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Final Assignment - Add and Search barang,Chrome 117.0.0.0,,,12-02-2024 10:27:27,12-02-2024 10:31:18,3m - 51.327s,FAILED
+,,,,,,,
+Test Cases/Final Assignment - Melakukan pencarian,Chrome 117.0.0.0,,,12-02-2024 10:27:51,12-02-2024 10:28:09,18.386s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:27:51,12-02-2024 10:27:52,1.237s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:27:52,12-02-2024 10:27:55,2.761s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,12-02-2024 10:27:55,12-02-2024 10:27:55,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch""))",Chrome 117.0.0.0,,,12-02-2024 10:27:55,12-02-2024 10:27:59,3.667s,PASSED
+"setText(findTestObject(""Object Repository/Page_Advantage Shopping/input_Sign out_autoComplete""), ""HP"")",Chrome 117.0.0.0,,,12-02-2024 10:27:59,12-02-2024 10:27:59,0.674s,PASSED
+"click(findTestObject(""Page_Advantage Shopping/Page_Advantage Shopping/section_HP H2310 IN-EAR HEADSET              13.99                SOLD OUT""))",Chrome 117.0.0.0,,,12-02-2024 10:27:59,12-02-2024 10:28:09,9.425s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,12-02-2024 10:28:09,12-02-2024 10:28:09,0.111s,PASSED
+,,,,,,,
+Test Cases/Final assognment - Add to chart,Chrome 117.0.0.0,,,12-02-2024 10:30:32,12-02-2024 10:31:18,46.597s,FAILED
+"openBrowser("""")",Chrome 117.0.0.0,,,12-02-2024 10:30:32,12-02-2024 10:30:33,0.967s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 117.0.0.0,,,12-02-2024 10:30:33,12-02-2024 10:30:35,2.766s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,12-02-2024 10:30:35,12-02-2024 10:30:36,0.465s,PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 117.0.0.0,,,12-02-2024 10:30:36,12-02-2024 10:30:37,1.005s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/img_View Details_popular_item_21_img""))",Chrome 117.0.0.0,,,12-02-2024 10:30:37,12-02-2024 10:30:40,3.080s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/label_View Details""))",Chrome 117.0.0.0,,,12-02-2024 10:30:40,12-02-2024 10:30:40,0.387s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/div_Quantity_plus""))",Chrome 117.0.0.0,,,12-02-2024 10:30:40,12-02-2024 10:30:43,2.719s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/span_Color_bunny""))",Chrome 117.0.0.0,,,12-02-2024 10:30:43,12-02-2024 10:30:43,0.274s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 117.0.0.0,,,12-02-2024 10:30:43,12-02-2024 10:30:44,0.489s,PASSED
+delay(1),Chrome 117.0.0.0,,,12-02-2024 10:30:44,12-02-2024 10:30:45,1.006s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/svg_Management Console_menuCart""))",Chrome 117.0.0.0,,,12-02-2024 10:30:45,12-02-2024 10:30:45,0.291s,PASSED
+"click(findTestObject(""Object Repository/add to chart/Page_Advantage Shopping/div_Advantage Inc, 2024. Release 3.2_virtualFooter""))",Chrome 117.0.0.0,,,12-02-2024 10:30:45,12-02-2024 10:31:18,33.133s,FAILED
